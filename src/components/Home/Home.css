@@ -27,20 +27,42 @@ h1 {
 
 @media only screen and (max-width: 767px) {
   h1 {
-    top: 140px;
-    left: 50px;
+    top: 25%;
+    left: 17%;
     font-size: 4.5rem;
   }
 }
 
 .p-home {
-  top: 240px;
-  left: 100px;
+  top: 47%;
+  left: 25%;
   font-size: 1.8rem;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    top: 13%;
+    left: 8%;
+    font-size: 5rem;
+  }
+
+  .p-home {
+    top: 38%;
+    left: 20%;
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 1024px) {
+  h1 {
+    top: 13%;
+    left: 10%;
+    font-size: 6rem;
+  }
+
+  .p-home {
+    top: 41%;
+    left: 20%;
+    font-size: 3rem;
+  }
 }

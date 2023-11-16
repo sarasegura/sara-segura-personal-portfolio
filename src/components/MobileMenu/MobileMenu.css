@@ -19,7 +19,8 @@
 }
 
 .mobile-menu li {
-  padding: 1rem;
+  padding: 2rem;
+  font-size: 1.4rem;
   cursor: pointer;
 }
 

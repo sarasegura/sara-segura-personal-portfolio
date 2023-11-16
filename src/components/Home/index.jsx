@@ -14,6 +14,7 @@ function Home({ children }) {
         <h1>Sara Segura</h1>
         <p className="p-home">Front-End Developer</p>
       </span>
+      <div></div>
     </div>
   );
 }
