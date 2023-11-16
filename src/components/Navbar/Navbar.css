@@ -1,21 +1,41 @@
 .navbar {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  border: 1px solid red;
+  position: absolute;
+  background: #00000084;
 }
 
 .container-list-Navbar {
   display: flex;
   gap: 40px;
-  border: 1px solid green;
   margin-right: 5%;
 }
-
-li {
+.menu-button {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background: #000;
+  fill: rgb(255, 0, 195);
+  border-radius: 100%;
+  border: 1px solid rgb(255, 0, 195);
+  box-shadow: 0 4px 8px rgba(187, 186, 186, 0.546);
+}
+.p-Navbar {
   list-style: none;
   color: #ffff;
   font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.li-porfolio {
+  list-style: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: rgb(255, 0, 195);
 }
 
 @media only screen and (max-width: 767px) {
@@ -27,6 +47,14 @@ li {
 @media (min-width: 768px) and (max-width: 1023px) {
   .menu-button {
     display: none;
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+
+  .container-list-Navbar {
+    gap: 20px;
   }
 }
 @media (min-width: 1024px) {

@@ -2,15 +2,12 @@
   display: none;
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
+  right: 0;
+  width: 70%;
   height: 100%;
-  background-color: rgb(
-    116,
-    116,
-    116
-  ); /* Puedes ajustar el color de fondo según tu diseño */
+  background-color: #000000ca;
   z-index: 1000;
+  padding-top: 30px;
 }
 
 .mobile-menu ul {
@@ -23,7 +20,6 @@
 
 .mobile-menu li {
   padding: 1rem;
-  border-bottom: 1px solid #ccc; /* Línea divisoria entre elementos */
   cursor: pointer;
 }
 
@@ -34,4 +30,16 @@
 /* Estilos para el menú abierto */
 .mobile-menu.open {
   display: block;
+}
+
+.exit-button {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background: #000;
+  fill: rgb(255, 0, 195);
+  border-radius: 100%;
+  border: 1px solid rgb(255, 0, 195);
 }
