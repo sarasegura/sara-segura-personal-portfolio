@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border: 1px solid red;
+}
+
+.container-list-Navbar {
+  display: flex;
+  gap: 40px;
+  border: 1px solid green;
+  margin-right: 5%;
+}
+
+li {
+  list-style: none;
+  color: #ffff;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .container-list-Navbar {
+    display: none; /* Oculta el Navbar en pantallas pequeñas */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .menu-button {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .menu-button {
+    display: none;
+  }
+}
