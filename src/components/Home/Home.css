@@ -10,3 +10,37 @@
   height: 100%;
   object-fit: cover;
 }
+
+h1 {
+  position: absolute;
+  font-family: "Pacifico", cursive;
+  color: rgb(255, 0, 195);
+  text-shadow: 0 0 3px #fff, 0 0 20px #fff, 0 0 20px #fff,
+    0 0 20px rgb(255, 0, 195), 0 0 40px rgb(255, 0, 195),
+    0 0 50px rgb(255, 0, 195), 0 0 70px rgb(255, 0, 195);
+}
+
+.p-home {
+  color: #fff;
+  position: absolute;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    top: 140px;
+    left: 50px;
+    font-size: 4.5rem;
+  }
+}
+
+.p-home {
+  top: 240px;
+  left: 100px;
+  font-size: 1.8rem;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) {
+}

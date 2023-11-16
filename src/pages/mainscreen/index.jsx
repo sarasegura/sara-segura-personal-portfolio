@@ -7,6 +7,7 @@ import Contact from "../../components/Contact";
 import Education from "../../components/Education";
 import Skills from "../../components/Skills";
 import About from "../../components/About";
+import Myproyects from "../../components/Myproyects";
 
 function Mainscreen() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,6 +28,7 @@ function Mainscreen() {
       </Home>
       <About id="sobre-mi" />
       <Skills id="habilidades" />
+      <Myproyects />
       <Education id="educacion" />
       <Contact id="contacto" />
     </>
