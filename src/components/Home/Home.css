@@ -25,31 +25,55 @@ h1 {
   position: absolute;
 }
 
+.social-media-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.social-icons {
+  fill: rgb(255, 0, 195);
+  width: 25px;
+  height: 25px;
+}
+
 @media only screen and (max-width: 767px) {
   h1 {
     top: 25%;
     left: 17%;
     font-size: 4.5rem;
   }
-}
+  .social-media-container {
+    bottom: 50px;
+    left: 28%;
+    gap: 50px;
+  }
 
-.p-home {
-  top: 47%;
-  left: 25%;
-  font-size: 1.8rem;
+  .p-home {
+    top: 47%;
+    left: 25%;
+    font-size: 1.8rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   h1 {
-    top: 13%;
+    top: 20%;
     left: 8%;
     font-size: 5rem;
   }
 
   .p-home {
-    top: 38%;
+    top: 45%;
     left: 20%;
     font-size: 2rem;
+  }
+
+  .social-media-container {
+    bottom: 50px;
+    left: 37%;
+    gap: 80px;
   }
 }
 
@@ -64,5 +88,16 @@ h1 {
     top: 41%;
     left: 20%;
     font-size: 3rem;
+  }
+
+  .social-media-container {
+    bottom: 50px;
+    left: 37%;
+    gap: 120px;
+  }
+
+  .social-icons {
+    width: 30px;
+    height: 30px;
   }
 }
