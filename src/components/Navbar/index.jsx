@@ -1,13 +1,27 @@
-import React from "react";
-import "./Navbar.css";
-import { useNavigate } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 import { Link as ScrollLink } from "react-scroll";
+import { useNavigate } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar({ onMenuToggle }) {
+  const [scrolled, setScrolled] = useState(false);
   const navigate = useNavigate();
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      setScrolled(isScrolled);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <button className="menu-button" onClick={onMenuToggle}>
         <svg
           xmlns="http://www.w3.org/2000/svg"

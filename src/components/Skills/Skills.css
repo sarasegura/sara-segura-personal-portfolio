@@ -1,5 +1,160 @@
+/* Skills.css */
+
 .container-skill {
-  width: 100%;
-  height: 80vh;
-  border: 1px solid red;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.container-info-skill {
+  padding: 0px 20px;
+}
+
+.info-skill-title {
+  margin-bottom: 10px;
+  color: rgb(255, 0, 195);
+  font-family: "Pacifico", cursive;
+  text-shadow: 0 0 3px #fff, 0 0 20px #fff, 0 0 20px #fff,
+    0 0 5px rgb(255, 0, 195), 0 0 5px rgb(255, 0, 195), 0 0 5px rgb(255, 0, 195),
+    0 0 5px rgb(255, 0, 195);
+}
+
+.info-skill-p {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #333;
+  word-spacing: 3px;
+  max-width: 500px;
+  text-align: justify;
+}
+
+.container-images-skill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 40px 10px;
+}
+.container-image-skill {
+  width: 80px;
+  height: 80px;
+}
+.image-skill {
+  width: 70px;
+  height: 60px;
+}
+
+.iconSkill {
+  width: 60px;
+  height: 60px;
+}
+
+.iconHtml {
+  fill: #ff5100;
+}
+
+.iconCss {
+  fill: #0048ff;
+}
+
+.iconSass {
+  fill: #e824b1;
+}
+
+.iconJavas {
+  fill: #fff022;
+}
+
+.iconReact {
+  fill: #22b9ff;
+}
+
+.skill-p {
+  margin-top: 5px;
+  font-weight: bold;
+  color: #000000;
+}
+
+@media (max-width: 767px) {
+  .container-skill {
+    flex-direction: column;
+    height: 140vh;
+  }
+
+  .container-info-skill {
+    height: 80%;
+  }
+
+  .container-images-skill {
+    height: 50%;
+    column-gap: 20px;
+    padding: 20px 10px;
+  }
+
+  .info-skill-title {
+    font-size: 3rem;
+  }
+  .info-skill-p {
+    font-size: 1.4rem;
+  }
+
+  .skill-p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container-skill {
+    height: 80vh;
+  }
+  .container-info-skill {
+    width: 50%;
+  }
+
+  .container-images-skill {
+    width: 50%;
+    max-width: 300px;
+    column-gap: 2ch;
+  }
+
+  .info-skill-title {
+    font-size: 2.94rem;
+  }
+
+  .info-skill-p {
+    font-size: 1.4rem;
+  }
+
+  .skill-p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-skill {
+    height: 80vh;
+    justify-content: center;
+  }
+  .container-info-skill {
+    width: 50%;
+  }
+
+  .container-images-skill {
+    width: 50%;
+    column-gap: 30px;
+    max-width: 330px;
+  }
+
+  .info-skill-title {
+    font-size: 4rem;
+  }
+
+  .info-skill-p {
+    font-size: 1.6rem;
+  }
+
+  .skill-p {
+    font-size: 1.35rem;
+  }
 }

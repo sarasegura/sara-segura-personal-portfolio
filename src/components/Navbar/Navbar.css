@@ -3,8 +3,12 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  position: absolute;
-  background: #00000084;
+  position: fixed;
+  background: #0000006e;
+}
+
+.navbar.scrolled {
+  background: #000;
 }
 
 .container-list-Navbar {
