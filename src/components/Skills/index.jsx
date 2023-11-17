@@ -2,7 +2,11 @@ import React from "react";
 import "./Skills.css";
 
 function Skills({ id }) {
-  return <p id={id}>soy Skills</p>;
+  return (
+    <div id={id} className="container-skill">
+      soy Skills
+    </div>
+  );
 }
 
 export default Skills;

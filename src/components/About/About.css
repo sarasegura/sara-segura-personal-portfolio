@@ -1,0 +1,158 @@
+.container-about {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  padding-top: 60px;
+}
+
+/* personal info */
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.personal-info-title {
+  font-size: 4rem;
+  font-family: "Pacifico", cursive;
+  margin-bottom: 2px;
+}
+
+.personal-info-p {
+  font-size: 1.5rem;
+  color: rgb(255, 0, 195);
+  margin-bottom: 15px;
+}
+
+.personal-info-img {
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+/* about-me  */
+
+.about-me {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.about-me-h2 {
+  font-size: 4.5rem;
+  font-family: "Pacifico", cursive;
+  text-shadow: 0 0 3px #fff, 0 0 20px #fff, 0 0 20px #fff,
+    0 0 20px rgb(255, 0, 195), 0 0 40px rgb(255, 0, 195),
+    0 0 50px rgb(255, 0, 195), 0 0 70px rgb(255, 0, 195);
+}
+
+.about-me-p {
+  text-align: justify;
+  max-width: 550px;
+}
+
+@media only screen and (max-width: 767px) {
+  .container-about {
+    flex-direction: column;
+    height: 150vh;
+    margin-bottom: 50px;
+  }
+
+  .personal-info-title {
+    margin-top: 0;
+  }
+
+  .personal-info-img {
+    width: 55%;
+    height: 55%;
+    margin-bottom: 40px;
+  }
+
+  .personal-info-p {
+    margin-bottom: 40px;
+  }
+
+  .about-me-p {
+    font-size: 1.4rem;
+    word-spacing: 3px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container-about {
+    height: 70vh;
+  }
+  .personal-info {
+    width: 50%;
+  }
+
+  .personal-info-title {
+    margin-top: 10px;
+  }
+
+  .personal-info-img {
+    width: 200px;
+    height: 180px;
+  }
+
+  .personal-info-p {
+    margin-bottom: 30px;
+  }
+
+  .about-me {
+    width: 50%;
+    padding: 0px 30px;
+  }
+
+  .about-me-h2 {
+    margin-top: 5px;
+  }
+
+  .about-me-p {
+    font-size: 1.4rem;
+    word-spacing: 3px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-about {
+    height: 70vh;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .personal-info {
+    width: 50%;
+  }
+
+  .personal-info-title {
+    margin-top: 0;
+    font-size: 5rem;
+    margin-bottom: 0;
+  }
+
+  .personal-info-p {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .personal-info-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-me {
+    width: 60%;
+    padding: 0px 45px;
+  }
+
+  .about-me-h2 {
+    margin-top: 5px;
+  }
+  .about-me-p {
+    font-size: 1.6rem;
+    word-spacing: 3px;
+  }
+}
