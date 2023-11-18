@@ -1,0 +1,22 @@
+.container-education {
+  height: 70vh;
+  background: rgb(255, 224, 241);
+  padding: 20px;
+}
+
+.education-title {
+  color: rgb(255, 0, 195);
+  font-family: "Pacifico", cursive;
+  text-shadow: 0 0 3px #fff, 0 0 20px #fff, 0 0 20px #fff,
+    0 0 5px rgb(255, 0, 195), 0 0 5px rgb(255, 0, 195), 0 0 5px rgb(255, 0, 195),
+    0 0 5px rgb(255, 0, 195);
+}
+
+@media (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) {
+}
