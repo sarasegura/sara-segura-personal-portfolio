@@ -1,0 +1,94 @@
+.container-myproyect {
+  height: 100vh;
+  padding: 20px;
+}
+
+.container-cart-proyects {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+
+.container-cart-proyect {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 20px;
+  height: auto;
+  background-color: #00000084;
+  border-radius: 20px;
+}
+
+.img-proyects {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.name-proyects {
+  font-size: 1.2rem;
+}
+
+.title-myproyects {
+  color: rgb(255, 0, 195);
+  font-family: "Pacifico", cursive;
+  text-shadow: 0 0 3px #fff, 0 0 20px #fff, 0 0 20px #fff,
+    0 0 5px rgb(255, 0, 195), 0 0 5px rgb(255, 0, 195), 0 0 5px rgb(255, 0, 195),
+    0 0 5px rgb(255, 0, 195);
+  margin-bottom: 50px;
+}
+
+.enlace-proyect-p {
+  color: rgb(255, 0, 195);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 767px) {
+  .container-myproyect {
+    height: 240vh;
+  }
+  .container-cart-proyects {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-proyects {
+    width: 200px;
+    height: 280px;
+  }
+
+  .title-myproyects {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .img-proyects {
+    width: 180px;
+    height: 250px;
+  }
+
+  .title-myproyects {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-proyects {
+    width: 220px;
+    height: 300px;
+  }
+
+  .title-myproyects {
+    font-size: 4rem;
+  }
+
+  .name-proyects {
+    font-size: 1.4rem;
+  }
+
+  .enlace-proyect-p {
+    font-size: 1.2rem;
+  }
+}
