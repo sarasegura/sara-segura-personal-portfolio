@@ -2,6 +2,9 @@
   height: 70vh;
   background: rgb(255, 224, 241);
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .education-title {
@@ -12,11 +15,53 @@
     0 0 5px rgb(255, 0, 195);
 }
 
+.wrapper-card-education {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.profession-name {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.number-education {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: rgb(255, 0, 195);
+}
+
+.p-education {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.year-education {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Puedes personalizar estos estilos según tus preferencias */
+
 @media (max-width: 767px) {
+  .education-title {
+    font-size: 3rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .education-title {
+    font-size: 3rem;
+  }
 }
 
 @media (min-width: 1024px) {
+  .education-title {
+    font-size: 4rem;
+  }
 }
