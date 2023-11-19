@@ -22,12 +22,13 @@
 }
 
 .img-proyects {
-  object-fit: cover;
+  object-fit: fill;
   border-radius: 10px;
 }
 
 .name-proyects {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
 }
 
 .title-myproyects {
@@ -41,21 +42,23 @@
 
 .enlace-proyect-p {
   color: rgb(255, 0, 195);
-  font-size: 1.1rem;
+  font-size: 1.25rem;
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {
   .container-myproyect {
-    height: 240vh;
+    height: 290vh;
   }
   .container-cart-proyects {
     display: flex;
     flex-direction: column;
+    gap: 50px;
   }
 
   .img-proyects {
     width: 200px;
-    height: 280px;
+    height: 340px;
   }
 
   .title-myproyects {
@@ -66,33 +69,35 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   .img-proyects {
     width: 180px;
-    height: 250px;
+    height: 320px;
   }
 
   .title-myproyects {
     font-size: 3.5rem;
+    margin-bottom: 30px;
   }
 }
 
 @media (min-width: 1024px) {
   .container-myproyect {
-    height: 110vh;
+    height: 120vh;
   }
   .img-proyects {
     width: 220px;
-    height: 300px;
+    height: 370px;
   }
 
   .title-myproyects {
     font-size: 4rem;
     text-align: center;
+    margin-bottom: 30px;
   }
 
   .name-proyects {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   .enlace-proyect-p {
-    font-size: 1.2rem;
+    font-size: 1.26rem;
   }
 }
