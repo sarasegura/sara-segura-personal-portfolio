@@ -47,7 +47,7 @@ function Contact({ id }) {
         <div className="wrapper-form-contact">
           <form
             className="form-contact"
-            action="https://formspree.io/f/mnqkdepg"
+            action="https://formspree.io/f/myyqaoay"
             method="POST"
           >
             <div className="container-form-name-email">
