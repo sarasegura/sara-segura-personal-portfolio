@@ -12,7 +12,7 @@ const Myproyects = () => {
       <div className="container-cart-proyects">
         <span className="container-cart-proyect">
           <img className="img-proyects" src={juego} alt="Mi Imagen" />
-          <p className="name-proyects">Video juego encuentra la miel</p>
+          <p className="name-proyects">Juego encuentra la miel</p>
           <a
             className="enlace-proyect-p"
             href="https://sarasegura.github.io/taller-practico-javascript-videogames/"
