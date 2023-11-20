@@ -9,6 +9,7 @@ import calculadora from "../../assets/calculadorabasica.png";
 import replicaApple from "../../assets/replicaapple.png";
 import restaurante from "../../assets/restaurante.png";
 import magistv from "../../assets/magis.png";
+import dibujocss from "../../assets/dibujocss.png";
 
 function Porfolio() {
   const goBack = () => {
@@ -131,6 +132,20 @@ function Porfolio() {
           <a
             className="enlace-proyect-p"
             href="https://sarasegura.github.io/restaurant-css-grid/"
+          >
+            Ver proyecto
+          </a>
+        </span>
+        <span className="container-cart-proyect-porfolio">
+          <img
+            className="img-proyects-potfolio"
+            src={dibujocss}
+            alt="Mi Imagen"
+          />
+          <p className="name-proyects">Dibujo en CSS </p>
+          <a
+            className="enlace-proyect-p"
+            href="https://sarasegura.github.io/dibujo-css-finn/"
           >
             Ver proyecto
           </a>
