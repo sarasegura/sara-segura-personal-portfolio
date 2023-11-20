@@ -101,3 +101,9 @@
     font-size: 1.26rem;
   }
 }
+
+@media (min-width: 1440px) {
+  .container-myproyect {
+    height: 90vh;
+  }
+}

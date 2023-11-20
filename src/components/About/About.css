@@ -156,3 +156,9 @@
     word-spacing: 3px;
   }
 }
+
+@media (min-width: 1440px) {
+  .container-about {
+    height: 50vh;
+  }
+}

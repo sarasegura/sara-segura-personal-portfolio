@@ -150,6 +150,7 @@
 @media (min-width: 1024px) {
   .container-education {
     height: 70vh;
+    padding-left: 60px;
   }
 
   .wrapper-education {
@@ -163,7 +164,7 @@
   }
 
   .certificate-container {
-    width: 70%;
+    width: 80%;
     padding-left: 30px;
   }
   .education-title {
@@ -178,5 +179,40 @@
   .certificate-image {
     width: 205px;
     height: 140px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .container-education {
+    height: 70vh;
+    padding-left: 60px;
+  }
+
+  .wrapper-certificate {
+    gap: 20px;
+  }
+
+  .certificate-image {
+    width: 250px;
+    height: 180px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container-education {
+    height: 55vh;
+    padding-left: 60px;
+    padding-top: 40px;
+  }
+
+  .wrapper-certificate {
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .certificate-image {
+    width: 280px;
+    height: 180px;
   }
 }

@@ -158,3 +158,9 @@
     font-size: 1.35rem;
   }
 }
+
+@media (min-width: 1440px) {
+  .container-skill {
+    height: 60vh;
+  }
+}
