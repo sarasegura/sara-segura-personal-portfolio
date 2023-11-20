@@ -13,7 +13,10 @@ const Myproyects = () => {
         <span className="container-cart-proyect">
           <img className="img-proyects" src={juego} alt="Mi Imagen" />
           <p className="name-proyects">Video juego encuentra la miel</p>
-          <a className="enlace-proyect-p" href="">
+          <a
+            className="enlace-proyect-p"
+            href="https://sarasegura.github.io/taller-practico-javascript-videogames/"
+          >
             Ver proyecto
           </a>
         </span>
@@ -24,14 +27,20 @@ const Myproyects = () => {
             alt="Mi Imagen"
           />
           <p className="name-proyects">Pagina de peliculas</p>
-          <a className="enlace-proyect-p" href="">
+          <a
+            className="enlace-proyect-p"
+            href="https://sarasegura.github.io/movie-page-api-rest-javascript/"
+          >
             Ver proyecto
           </a>
         </span>
         <span className="container-cart-proyect">
           <img className="img-proyects" src={paginanotes} alt="Mi Imagen" />
           <p className="name-proyects">App page de notas</p>
-          <a className="enlace-proyect-p" href="">
+          <a
+            className="enlace-proyect-p"
+            href="https://sarasegura.github.io/page-notes-curso-react-intro/"
+          >
             Ver proyecto
           </a>
         </span>
