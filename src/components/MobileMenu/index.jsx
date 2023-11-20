@@ -1,6 +1,7 @@
 import React from "react";
-import "./MobileMenu.css";
+import { Link as ScrollLink } from "react-scroll";
 import { useNavigate } from "react-router-dom";
+import "./MobileMenu.css";
 
 function MobileMenu({ isOpen, onClose }) {
   const navigate = useNavigate();
@@ -31,12 +32,47 @@ function MobileMenu({ isOpen, onClose }) {
   return (
     <div className={`mobile-menu ${isOpen ? "open" : ""}`}>
       <ul>
-        <li onClick={() => handleMenuItemClick("sobre-mi")}>Sobre Mí</li>
-        <li onClick={() => handleMenuItemClick("habilidades")}>Habilidades</li>
-        <li onClick={() => handleMenuItemClick("educacion")}>Educación</li>
+        <li>
+          <ScrollLink
+            to="sobre-mi"
+            smooth={true}
+            duration={500}
+            onClick={() => handleMenuItemClick("sobre-mi")}
+          >
+            Sobre Mí
+          </ScrollLink>
+        </li>
+        <li>
+          <ScrollLink
+            to="habilidades"
+            smooth={true}
+            duration={500}
+            onClick={() => handleMenuItemClick("habilidades")}
+          >
+            Habilidades
+          </ScrollLink>
+        </li>
         <li onClick={() => handleMenuItemClick("/portfolio")}>Portafolio</li>
-        <li onClick={() => handleMenuItemClick("contacto")}>Contáctame</li>
-
+        <li>
+          <ScrollLink
+            to="educacion"
+            smooth={true}
+            duration={500}
+            onClick={() => handleMenuItemClick("educacion")}
+          >
+            Educación
+          </ScrollLink>
+        </li>
+        <li>
+          <ScrollLink
+            to="contacto"
+            smooth={true}
+            duration={500}
+            onClick={() => handleMenuItemClick("contacto")}
+          >
+            Contáctame
+          </ScrollLink>
+        </li>
         {/* Nuevo elemento para el botón de salida */}
         <button className="exit-button" onClick={handleExitClick}>
           <svg

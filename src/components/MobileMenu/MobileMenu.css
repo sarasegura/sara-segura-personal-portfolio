@@ -25,17 +25,16 @@
 }
 
 .mobile-menu li:last-child {
-  border-bottom: none; /* Elimina la línea divisoria del último elemento */
+  border-bottom: none;
 }
 
-/* Estilos para el menú abierto */
 .mobile-menu.open {
   display: block;
 }
 
 .exit-button {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   position: absolute;
   top: 20px;
   right: 30px;
