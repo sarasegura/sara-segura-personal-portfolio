@@ -20,18 +20,22 @@ function About({ id }) {
             ¡Hola! Soy Sara Paola Segura Devia, una apasionada de la
             programación con 21 años de edad. Mi viaje en el mundo del
             desarrollo web me ha llevado a explorar y dominar diversas
-            tecnologías. <br></br> Mi compromiso y responsabilidad en cada
-            proyecto reflejan mi dedicación al desarrollo frontend. Me
-            enorgullece decir que he ampliado mis habilidades a través de la
-            Escuela de Platzi, donde he adquirido conocimientos sólidos y
-            prácticos. Me esfuerzo por crear experiencias web cautivadoras y
-            funcionales. Mi enfoque meticuloso y creativo me impulsa a superar
-            desafíos y aportar soluciones innovadoras. <br></br>Fuera del mundo
-            del código, me caracterizo por ser una persona respetuosa y
-            colaborativa. Siempre estoy ansiosa por aprender, crecer y
-            contribuir al emocionante universo de la tecnología. ¡Bienvenido a
-            mi rincón virtual, donde compartiré mi viaje, proyectos y
-            aprendizajes en el fascinante mundo del desarrollo web! 🚀
+            tecnologías. Mi compromiso y responsabilidad en cada proyecto
+            reflejan mi dedicación al desarrollo frontend.
+          </p>
+          <p className="about-me-p">
+            Me he capacitado en la Escuela de Platzi, fortaleciendo mis
+            habilidades con conocimientos sólidos y prácticos. Mi enfoque
+            meticuloso y creativo me impulsa a crear experiencias web
+            cautivadoras y funcionales, superando desafíos con soluciones
+            innovadoras.
+          </p>
+          <p className="about-me-p">
+            Fuera del código, me destaco por ser respetuosa y colaborativa.
+            Siempre estoy emocionada por aprender, crecer y contribuir al
+            fascinante mundo de la tecnología. ¡Bienvenido a mi rincón virtual,
+            donde comparto mi viaje, proyectos y aprendizajes en el desarrollo
+            web! 🚀
           </p>
         </div>
       </div>

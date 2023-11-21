@@ -11,7 +11,7 @@
 .personal-info {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -25,6 +25,8 @@
   font-size: 1.5rem;
   color: rgb(255, 0, 195);
   margin-bottom: 15px;
+  width: 100%;
+  text-align: center;
 }
 
 .personal-info-img {

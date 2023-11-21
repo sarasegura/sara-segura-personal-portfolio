@@ -6,6 +6,7 @@
   justify-content: space-between;
   background: rgb(255, 224, 241);
   margin-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .container-info-skill {
@@ -19,10 +20,11 @@
   text-shadow: 0 0 3px #fff, 0 0 20px #fff, 0 0 20px #fff,
     0 0 5px rgb(255, 0, 195), 0 0 5px rgb(255, 0, 195), 0 0 5px rgb(255, 0, 195),
     0 0 5px rgb(255, 0, 195);
+  text-align: center;
 }
 
 .info-skill-p {
-  font-size: 1rem;
+  font-size: 1.6rem;
   line-height: 1.4;
   color: #333;
   word-spacing: 3px;
@@ -36,6 +38,8 @@
   justify-content: space-evenly;
   text-align: center;
   padding: 40px 10px;
+  justify-content: center;
+  align-items: center;
 }
 .container-image-skill {
   width: 80px;
