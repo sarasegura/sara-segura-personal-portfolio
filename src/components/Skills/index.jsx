@@ -60,7 +60,7 @@ function Skills({ id }) {
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png"
             alt="logo de tailwind css"
           />
-          <p className="skill-p">Tailwind css</p>
+          <p className="skill-p">TailwindCss</p>
         </span>
 
         <span className="container-image-skill">

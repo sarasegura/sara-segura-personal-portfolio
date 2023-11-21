@@ -1,8 +1,9 @@
 .container-about {
   width: 100%;
-  margin: 0;
+  margin-bottom: 30px;
   display: flex;
   padding-top: 60px;
+  height: auto;
 }
 
 /* personal info */
@@ -57,8 +58,6 @@
 @media only screen and (max-width: 767px) {
   .container-about {
     flex-direction: column;
-    height: 150vh;
-    margin-bottom: 50px;
   }
 
   .personal-info-title {
@@ -82,9 +81,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .container-about {
-    height: 70vh;
-  }
   .personal-info {
     width: 50%;
   }
@@ -118,11 +114,6 @@
 }
 
 @media (min-width: 1024px) {
-  .container-about {
-    height: 70vh;
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
   .personal-info {
     width: 50%;
   }
@@ -154,11 +145,5 @@
   .about-me-p {
     font-size: 1.6rem;
     word-spacing: 3px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .container-about {
-    height: 50vh;
   }
 }

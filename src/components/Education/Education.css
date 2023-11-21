@@ -3,9 +3,9 @@
   display: flex;
   justify-content: center;
   align-items: start;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
+  padding: 20px;
+
+  height: auto;
 }
 
 .education-title {
@@ -84,7 +84,6 @@
 @media (max-width: 767px) {
   .container-education {
     flex-direction: column;
-    height: 230vh;
   }
 
   .wrapper-education {
@@ -116,7 +115,6 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .container-education {
-    height: 90vh;
     padding-right: none;
   }
   .wrapper-education {
@@ -149,7 +147,6 @@
 
 @media (min-width: 1024px) {
   .container-education {
-    height: 70vh;
     padding-left: 60px;
   }
 
@@ -184,7 +181,6 @@
 
 @media (min-width: 1366px) {
   .container-education {
-    height: 70vh;
     padding-left: 60px;
   }
 
@@ -200,7 +196,6 @@
 
 @media (min-width: 1440px) {
   .container-education {
-    height: 55vh;
     padding-left: 60px;
     padding-top: 40px;
   }

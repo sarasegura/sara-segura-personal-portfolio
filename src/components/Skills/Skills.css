@@ -1,10 +1,11 @@
 /* Skills.css */
 
 .container-skill {
-  height: 70vh;
+  height: auto;
   display: flex;
   justify-content: space-between;
   background: rgb(255, 224, 241);
+  margin-bottom: 30px;
 }
 
 .container-info-skill {
@@ -79,7 +80,6 @@
 @media (max-width: 767px) {
   .container-skill {
     flex-direction: column;
-    height: 140vh;
   }
 
   .container-info-skill {
@@ -88,7 +88,8 @@
 
   .container-images-skill {
     height: 50%;
-    column-gap: 20px;
+    column-gap: 40px;
+    gap: 40px;
     padding: 20px 10px;
   }
 
@@ -105,9 +106,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .container-skill {
-    height: 80vh;
-  }
   .container-info-skill {
     width: 50%;
   }
@@ -133,7 +131,6 @@
 
 @media (min-width: 1024px) {
   .container-skill {
-    height: 80vh;
     justify-content: center;
   }
   .container-info-skill {
@@ -156,11 +153,5 @@
 
   .skill-p {
     font-size: 1.35rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  .container-skill {
-    height: 60vh;
   }
 }

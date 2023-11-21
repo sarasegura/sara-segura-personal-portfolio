@@ -1,6 +1,7 @@
 .container-myproyect {
-  height: 100vh;
-  padding: 20px;
+  height: auto;
+  padding: 0px 0px 20px 0px;
+  margin-bottom: 20px;
 }
 
 .container-cart-proyects {
@@ -38,6 +39,7 @@
     0 0 5px rgb(255, 0, 195), 0 0 5px rgb(255, 0, 195), 0 0 5px rgb(255, 0, 195),
     0 0 5px rgb(255, 0, 195);
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .enlace-proyect-p {
@@ -47,9 +49,6 @@
 }
 
 @media (max-width: 767px) {
-  .container-myproyect {
-    height: 290vh;
-  }
   .container-cart-proyects {
     display: flex;
     flex-direction: column;
@@ -79,9 +78,6 @@
 }
 
 @media (min-width: 1024px) {
-  .container-myproyect {
-    height: 115vh;
-  }
   .img-proyects {
     width: 220px;
     height: 370px;
@@ -89,7 +85,6 @@
 
   .title-myproyects {
     font-size: 4rem;
-    text-align: center;
     margin-bottom: 30px;
   }
 
@@ -99,11 +94,5 @@
 
   .enlace-proyect-p {
     font-size: 1.26rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  .container-myproyect {
-    height: 90vh;
   }
 }
