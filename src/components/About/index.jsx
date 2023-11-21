@@ -17,13 +17,21 @@ function About({ id }) {
         <div className="about-me">
           <h2 className="about-me-h2">Yo Soy</h2>
           <p className="about-me-p">
-            I am a young enthusiast who is keen on IT and anything about it
-            since my first steps to High School. During the past few years, I
-            gained lots of experience in this field due to the strong desire of
-            becoming an expert. Today I am a senior front-end developer at one
-            of the leading companies in the world. “For me, web development is
-            more than coding. It's a canvas with a blank page and I am the
-            artist to paint it with colors of coding”.
+            ¡Hola! Soy Sara Paola Segura Devia, una apasionada de la
+            programación con 21 años de edad. Mi viaje en el mundo del
+            desarrollo web me ha llevado a explorar y dominar diversas
+            tecnologías. <br></br> Mi compromiso y responsabilidad en cada
+            proyecto reflejan mi dedicación al desarrollo frontend. Me
+            enorgullece decir que he ampliado mis habilidades a través de la
+            Escuela de Platzi, donde he adquirido conocimientos sólidos y
+            prácticos. Me esfuerzo por crear experiencias web cautivadoras y
+            funcionales. Mi enfoque meticuloso y creativo me impulsa a superar
+            desafíos y aportar soluciones innovadoras. <br></br>Fuera del mundo
+            del código, me caracterizo por ser una persona respetuosa y
+            colaborativa. Siempre estoy ansiosa por aprender, crecer y
+            contribuir al emocionante universo de la tecnología. ¡Bienvenido a
+            mi rincón virtual, donde compartiré mi viaje, proyectos y
+            aprendizajes en el fascinante mundo del desarrollo web! 🚀
           </p>
         </div>
       </div>
