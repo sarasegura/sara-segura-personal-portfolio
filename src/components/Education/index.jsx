@@ -15,7 +15,7 @@ function Education({ id }) {
             <p className="p-education">
               Tecnología en gestión de recursos naturales
             </p>
-            <p className="p-education">SENA</p>
+            <p className="p-education  p-program">SENA</p>
             <p className="year-education">2018-2020</p>
           </div>
         </span>
@@ -23,7 +23,7 @@ function Education({ id }) {
           <p className="number-education">2</p>
           <div className="profession-name">
             <p className="p-education">Front-end developer</p>
-            <p className="p-education">PLatzi</p>
+            <p className="p-education p-program">PLatzi</p>
             <p className="year-education">2023</p>
           </div>
         </span>

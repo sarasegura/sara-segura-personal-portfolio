@@ -25,14 +25,16 @@
 
 .wrapper-card-education {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
+  justify-content: flex-start;
+  align-items: baseline;
+  border: 1px solid gold;
 }
 
 .profession-name {
   display: flex;
+  flex-direction: column;
   justify-content: start;
-  align-items: center;
+  align-items: start;
 }
 
 .number-education {
@@ -48,9 +50,13 @@
   margin: 0;
 }
 
+.p-program {
+  font-weight: bold;
+}
+
 .year-education {
   font-size: 1.2rem;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #333;
   font-weight: 700;
 }
