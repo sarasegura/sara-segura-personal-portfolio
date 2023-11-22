@@ -15,7 +15,7 @@ function Home({ children }) {
         <p className="p-home">Front-End Developer</p>
       </span>
       <div className="social-media-container">
-        <a href="">
+        <a href="https://github.com/sarasegura">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="social-icons"
