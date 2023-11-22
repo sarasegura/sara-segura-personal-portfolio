@@ -27,7 +27,6 @@
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
-  border: 1px solid gold;
 }
 
 .profession-name {
@@ -59,6 +58,24 @@
   margin-top: 5px;
   color: #333;
   font-weight: 700;
+}
+
+.container-info-platzi {
+  margin-top: 30px;
+}
+
+.image-platzi {
+  width: 100px;
+  height: auto;
+}
+
+.wrapper-platzi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 0, 195);
+  font-size: 1.4rem;
 }
 
 /* certficate */
@@ -118,6 +135,10 @@
   .certificate-image {
     width: 270px;
     height: 170px;
+  }
+
+  .wrapper-platzi {
+    margin-bottom: 30px;
   }
 }
 

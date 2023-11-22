@@ -10,6 +10,7 @@ import replicaApple from "../../assets/replicaapple.png";
 import restaurante from "../../assets/restaurante.png";
 import magistv from "../../assets/magis.png";
 import dibujocss from "../../assets/dibujocss.png";
+import Yardsale from "../../assets/yardsale.png";
 
 function Porfolio() {
   const goBack = () => {
@@ -115,6 +116,20 @@ function Porfolio() {
             alt="Mi Imagen"
           />
           <p className="name-proyects">Replica apple</p>
+          <a
+            className="enlace-proyect-p"
+            href="https://sarasegura.github.io/replica_de_apple/"
+          >
+            Ver proyecto
+          </a>
+        </span>
+        <span className="container-cart-proyect-porfolio">
+          <img
+            className="img-proyects-potfolio"
+            src={Yardsale}
+            alt="Mi Imagen"
+          />
+          <p className="name-proyects">Yardsale</p>
           <a
             className="enlace-proyect-p"
             href="https://sarasegura.github.io/replica_de_apple/"
