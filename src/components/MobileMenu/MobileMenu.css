@@ -28,6 +28,16 @@
   border-bottom: none;
 }
 
+.list-menu {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.lis-menu-portfolio {
+  color: rgb(255, 0, 195);
+  font-weight: 900;
+}
+
 .mobile-menu.open {
   display: block;
 }

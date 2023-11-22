@@ -32,7 +32,7 @@ function MobileMenu({ isOpen, onClose }) {
   return (
     <div className={`mobile-menu ${isOpen ? "open" : ""}`}>
       <ul>
-        <li>
+        <li className="list-menu ">
           <ScrollLink
             to="sobre-mi"
             smooth={true}
@@ -42,7 +42,7 @@ function MobileMenu({ isOpen, onClose }) {
             Sobre Mí
           </ScrollLink>
         </li>
-        <li>
+        <li className="list-menu ">
           <ScrollLink
             to="habilidades"
             smooth={true}
@@ -52,8 +52,13 @@ function MobileMenu({ isOpen, onClose }) {
             Habilidades
           </ScrollLink>
         </li>
-        <li onClick={() => handleMenuItemClick("/portfolio")}>Portafolio</li>
-        <li>
+        <li
+          className="list-menu lis-menu-portfolio"
+          onClick={() => handleMenuItemClick("/portfolio")}
+        >
+          Portafolio
+        </li>
+        <li className="list-menu ">
           <ScrollLink
             to="educacion"
             smooth={true}
@@ -63,7 +68,7 @@ function MobileMenu({ isOpen, onClose }) {
             Educación
           </ScrollLink>
         </li>
-        <li>
+        <li className="list-menu ">
           <ScrollLink
             to="contacto"
             smooth={true}
