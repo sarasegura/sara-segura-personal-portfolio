@@ -132,7 +132,7 @@ function Porfolio() {
           <p className="name-proyects">Yardsale</p>
           <a
             className="enlace-proyect-p"
-            href="https://sarasegura.github.io/replica_de_apple/"
+            href="https://sarasegura.github.io/curso-frontend-developer-js-practico/"
           >
             Ver proyecto
           </a>
