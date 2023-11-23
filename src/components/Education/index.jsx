@@ -1,28 +1,14 @@
 import React from "react";
 import "./Education.css";
 
-import gitygithub from "../../assets/certificadogitygithub.png";
-import Javascript from "../../assets/certificadojavascript.png";
-import rutareact from "../../assets/certificadoreact.png";
-import htmlycss from "../../assets/certificadohtmlycss.png";
-
 function Education({ id }) {
   return (
     <div className="container-education" id={id}>
       <div className="wrapper-education">
-        <h2 className="education-title">Educación</h2>
+        <h2 className="education-title">Cursos</h2>
+
         <span className="wrapper-card-education">
-          <p className="number-education">1</p>
-          <div className="profession-name">
-            <p className="p-education">
-              Tecnología en gestión de recursos naturales
-            </p>
-            <p className="p-education  p-program">SENA</p>
-            <p className="year-education">2018-2020</p>
-          </div>
-        </span>
-        <span className="wrapper-card-education">
-          <p className="number-education">2</p>
+          <p className="number-education">💗</p>
           <div className="profession-name">
             <p className="p-education">Front-end developer</p>
             <p className="p-education p-program">PLatzi</p>
@@ -44,25 +30,26 @@ function Education({ id }) {
         </div>
       </div>
       <div className="certificate-container">
-        <h2 className="certificate-title">Certificados</h2>
-        <span className="wrapper-certificate">
-          <span>
-            <img className="certificate-image" src={gitygithub} alt="" />
-            <p className="certificate-p">Curso profesional de GIT y GITHUB</p>
-          </span>
-          <span>
-            <img className="certificate-image" src={Javascript} alt="" />
-            <p className="certificate-p">Javascript a profundidad</p>
-          </span>
-          <span>
-            <img className="certificate-image" src={rutareact} alt="" />
-            <p className="certificate-p">Frontend con React</p>
-          </span>
-          <span>
-            <img className="certificate-image" src={htmlycss} alt="" />
-            <p className="certificate-p">HTML Y CSS a profundidad</p>
-          </span>
-        </span>
+        <h2 className="certificate-title">Platzi</h2>
+        <div className="wrapper-certificate">
+          <p className="p-education p-education-platzi ">
+            Con entusiasmo comparto mi trayectoria por la Escuela de Platzi en
+            desarrollo frontend, donde he cultivado conocimientos en diseño
+            utilizando CSS, SASS y Tailwind CSS para crear interfaces
+            estilizadas y eficientes.
+          </p>
+          <p className="p-education p-education-platzi">
+            Mi dominio en HTML y HTML5, enfocado en el marcado semántico,
+            garantiza la claridad y accesibilidad en mis proyectos. Además, he
+            adquirido habilidades en JavaScript y React.
+          </p>
+          <p className="p-education p-education-platzi">
+            Destaco mi capacidad para implementar diseños responsivos,
+            asegurando una experiencia óptima en diversos dispositivos. Mi
+            tiempo en Platzi ha sido fundamental para adquirir las destrezas
+            necesarias en el desarrollo frontend.
+          </p>
+        </div>
       </div>
     </div>
   );

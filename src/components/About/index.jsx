@@ -7,7 +7,7 @@ function About({ id }) {
       <div id={id} className="container-about">
         <div className="personal-info">
           <h3 className="personal-info-title">Sara Segura</h3>
-          <p className="personal-info-p">21 años de edad</p>
+          <p className="personal-info-p">Front-End Developer</p>
           <img
             className="personal-info-img"
             src="https://www.shutterstock.com/image-photo/beauty-glamour-girl-portrait-perfect-260nw-1906240834.jpg"
@@ -18,10 +18,10 @@ function About({ id }) {
           <h2 className="about-me-h2">Yo Soy</h2>
           <p className="about-me-p">
             ¡Hola! Soy Sara Paola Segura Devia, una apasionada de la
-            programación con 21 años de edad. Mi viaje en el mundo del
-            desarrollo web me ha llevado a explorar y dominar diversas
-            tecnologías. Mi compromiso y responsabilidad en cada proyecto
-            reflejan mi dedicación al desarrollo frontend.
+            programación. Mi viaje en el mundo del desarrollo web me ha llevado
+            a explorar y dominar diversas tecnologías. Mi compromiso y
+            responsabilidad en cada proyecto reflejan mi dedicación al
+            desarrollo frontend.
           </p>
           <p className="about-me-p">
             Me he capacitado en la Escuela de Platzi, fortaleciendo mis

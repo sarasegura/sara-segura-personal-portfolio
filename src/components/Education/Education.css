@@ -16,6 +16,7 @@
     0 0 5px rgb(255, 0, 195);
   margin-top: 0;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .wrapper-education {
@@ -47,6 +48,11 @@
   font-size: 1.4rem;
   color: #333;
   margin: 0;
+  text-align: justify;
+}
+
+.p-education-platzi {
+  margin-bottom: 15px;
 }
 
 .p-program {
@@ -62,11 +68,15 @@
 
 .container-info-platzi {
   margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
 }
 
 .image-platzi {
   width: 100px;
   height: auto;
+  margin-right: 40px;
 }
 
 .wrapper-platzi {
@@ -81,8 +91,7 @@
 /* certficate */
 
 .wrapper-certificate {
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 550px;
 }
 
 .certificate-title {
@@ -92,6 +101,7 @@
     0 0 5px rgb(255, 0, 195), 0 0 5px rgb(255, 0, 195), 0 0 5px rgb(255, 0, 195),
     0 0 5px rgb(255, 0, 195);
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .certificate-image {
@@ -102,6 +112,13 @@
   color: #333;
   text-align: center;
   font-size: 1.2rem;
+}
+
+.certificate-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Puedes personalizar estos estilos según tus preferencias */
@@ -147,7 +164,7 @@
     padding-right: none;
   }
   .wrapper-education {
-    width: 40%;
+    width: 50%;
   }
 
   .wrapper-certificate {
@@ -164,7 +181,7 @@
   }
 
   .certificate-container {
-    width: 60%;
+    width: 50%;
     padding-left: 20px;
   }
 
@@ -180,7 +197,7 @@
   }
 
   .wrapper-education {
-    width: 30%;
+    width: 50%;
   }
 
   .wrapper-certificate {
@@ -190,7 +207,7 @@
   }
 
   .certificate-container {
-    width: 80%;
+    width: 50%;
     padding-left: 30px;
   }
   .education-title {

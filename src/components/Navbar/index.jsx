@@ -44,7 +44,7 @@ function Navbar({ onMenuToggle }) {
         </li>
         <li className="p-Navbar">
           <ScrollLink to="educacion" smooth={true} duration={500}>
-            Educación
+            Cursos
           </ScrollLink>
         </li>
         <li className="li-porfolio" onClick={() => navigate("/portfolio")}>
