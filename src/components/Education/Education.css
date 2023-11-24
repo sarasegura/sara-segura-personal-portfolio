@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: start;
   padding: 20px;
-
   height: auto;
 }
 
@@ -22,12 +21,16 @@
 .wrapper-education {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .wrapper-card-education {
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
+  margin-left: -120px;
 }
 
 .profession-name {
@@ -167,6 +170,10 @@
     width: 50%;
   }
 
+  .wrapper-platzi {
+    margin-top: 50px;
+  }
+
   .wrapper-certificate {
     gap: 30px;
   }
@@ -182,7 +189,6 @@
 
   .certificate-container {
     width: 50%;
-    padding-left: 20px;
   }
 
   .certificate-image {
@@ -192,10 +198,6 @@
 }
 
 @media (min-width: 1024px) {
-  .container-education {
-    padding-left: 60px;
-  }
-
   .wrapper-education {
     width: 50%;
   }
@@ -207,8 +209,7 @@
   }
 
   .certificate-container {
-    width: 50%;
-    padding-left: 30px;
+    width: 60%;
   }
   .education-title {
     font-size: 4rem;
@@ -226,10 +227,6 @@
 }
 
 @media (min-width: 1366px) {
-  .container-education {
-    padding-left: 60px;
-  }
-
   .wrapper-certificate {
     gap: 20px;
   }
@@ -242,7 +239,6 @@
 
 @media (min-width: 1440px) {
   .container-education {
-    padding-left: 60px;
     padding-top: 40px;
   }
 
