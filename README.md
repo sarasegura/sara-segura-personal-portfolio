@@ -6,6 +6,8 @@
 - [Vite](https://vitejs.dev/): Herramienta de construcción rápida para aplicaciones web modernas.
 - [react-spring](https://react-spring.io/): Biblioteca para animaciones en React.
 - [react-router-dom](https://reactrouter.com/): Enrutador para aplicaciones React.
+- HTML: Lenguaje de marcado estándar para la creación de páginas web.
+- CSS: Lenguaje de estilo utilizado para dar estilo a documentos HTML.
 
 ## Instalación
 
