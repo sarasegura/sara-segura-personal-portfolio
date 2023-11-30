@@ -1,6 +1,8 @@
 import React from "react";
 import "./About.css";
 
+import sarafoto from "../../assets/sarafotopequeña.png";
+
 function About({ id }) {
   return (
     <>
@@ -8,11 +10,7 @@ function About({ id }) {
         <div className="personal-info">
           <h3 className="personal-info-title">Sara Segura</h3>
           <p className="personal-info-p">Front-End Developer</p>
-          <img
-            className="personal-info-img"
-            src="https://www.shutterstock.com/image-photo/beauty-glamour-girl-portrait-perfect-260nw-1906240834.jpg"
-            alt=""
-          />
+          <img className="personal-info-img" src={sarafoto} alt="" />
         </div>
         <div className="about-me">
           <h2 className="about-me-h2">Yo Soy</h2>
