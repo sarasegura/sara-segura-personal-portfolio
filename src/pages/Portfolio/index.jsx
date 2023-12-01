@@ -11,6 +11,7 @@ import restaurante from "../../assets/restaurante.png";
 import magistv from "../../assets/magis.png";
 import dibujocss from "../../assets/dibujocss.png";
 import Yardsale from "../../assets/yardsale.png";
+import replicagoogle from "../../assets/ replicagoogle.png";
 
 function Porfolio() {
   const goBack = () => {
@@ -161,6 +162,20 @@ function Porfolio() {
           <a
             className="enlace-proyect-p"
             href="https://sarasegura.github.io/dibujo-css-finn/"
+          >
+            Ver proyecto
+          </a>
+        </span>
+        <span className="container-cart-proyect-porfolio">
+          <img
+            className="img-proyects-potfolio"
+            src={replicagoogle}
+            alt="Mi Imagen"
+          />
+          <p className="name-proyects">Replica Google </p>
+          <a
+            className="enlace-proyect-p"
+            href="https://sarasegura.github.io/replica-google/"
           >
             Ver proyecto
           </a>
