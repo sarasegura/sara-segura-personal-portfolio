@@ -11,7 +11,7 @@ import restaurante from "../../assets/restaurante.png";
 import magistv from "../../assets/magis.png";
 import dibujocss from "../../assets/dibujocss.png";
 import Yardsale from "../../assets/yardsale.png";
-import replicagoogle from "../../assets/ replicagoogle.png";
+import replicagoogle from "../../assets/replicagoogle.png";
 
 function Porfolio() {
   const goBack = () => {
