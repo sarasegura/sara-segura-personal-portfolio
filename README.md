@@ -1,6 +1,7 @@
-# [Mi Portafolio <img src="https://github.com/sarasegura/sara-segura-personal-portfolio/assets/137323950/a4fbe15d-b50d-4092-8c11-a9429d737760" width="100" style="border-radius: 10px;](https://sarasegura.github.io/sara-segura-personal-portfolio/)
+# [Mi Portafolio ](https://sarasegura.github.io/sara-segura-personal-portfolio/) <img src="https://github.com/sarasegura/sara-segura-personal-portfolio/assets/137323950/a4fbe15d-b50d-4092-8c11-a9429d737760" width="100" style="border-radius: 10px;">
 
-">
+
+
 ¡Bienvenido a mi portafolio! Soy Sara, un desarrollador web entusiasta, y este espacio es una ventana a mi creatividad y habilidades. 
 ## Tecnologías Utilizadas
 
