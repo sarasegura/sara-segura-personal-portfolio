@@ -1,13 +1,15 @@
-# [Mi Portafolio 💼](https://sarasegura.github.io/sara-segura-personal-portfolio/)
+# [Mi Portafolio <img src="https://github.com/sarasegura/sara-segura-personal-portfolio/assets/137323950/a4fbe15d-b50d-4092-8c11-a9429d737760" width="100" style="border-radius: 10px;](https://sarasegura.github.io/sara-segura-personal-portfolio/)
 
-<img src="https://github.com/sarasegura/sara-segura-personal-portfolio/assets/137323950/a4fbe15d-b50d-4092-8c11-a9429d737760" width="300" style="border-radius: 10px;">
-
+">
+¡Bienvenido a mi portafolio! Soy Sara, un desarrollador web entusiasta, y este espacio es una ventana a mi creatividad y habilidades. 
 ## Tecnologías Utilizadas
 
 - [React](https://reactjs.org/): Biblioteca de JavaScript para construir interfaces de usuario.
 - [Vite](https://vitejs.dev/): Herramienta de construcción rápida para aplicaciones web modernas.
 - [react-spring](https://react-spring.io/): Biblioteca para animaciones en React.
 - [react-router-dom](https://reactrouter.com/): Enrutador para aplicaciones React.
+- HTML: Lenguaje de marcado estándar para la creación de páginas web.
+- CSS: Lenguaje de estilo utilizado para dar estilo a documentos HTML.
 
 ## Instalación
 
