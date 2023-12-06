@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import fotoportada from "../../assets/fotoparapagina.png";
 
 function Home({ children }) {
   return (
@@ -7,7 +8,7 @@ function Home({ children }) {
       {children}
       <img
         className="img-personal"
-        src="https://img.freepik.com/fotos-premium/retrato-hermosa-joven-pelo-largo-sobre-fondo-negro_893012-76080.jpg"
+        src={fotoportada}
         alt="imagen de presentacion"
       />
       <span>

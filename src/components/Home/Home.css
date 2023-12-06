@@ -27,6 +27,7 @@ h1 {
 
 .social-media-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -36,24 +37,27 @@ h1 {
   fill: rgb(255, 0, 195);
   width: 25px;
   height: 25px;
+  background: white;
+  padding: 1px;
+  border-radius: 100%;
 }
 
 @media only screen and (max-width: 767px) {
   h1 {
-    top: 25%;
-    left: 17%;
-    font-size: 4.5rem;
+    top: 30%;
+    left: 5%;
+    font-size: 3.5rem;
   }
   .social-media-container {
     bottom: 80px;
-    left: 36%;
+    left: 8%;
     gap: 50px;
   }
 
   .p-home {
-    top: 47%;
-    left: 25%;
-    font-size: 1.8rem;
+    top: 44%;
+    left: 9%;
+    font-size: 1.6rem;
   }
 }
 
@@ -66,34 +70,34 @@ h1 {
 
   .p-home {
     top: 45%;
-    left: 20%;
+    left: 15%;
     font-size: 2rem;
   }
 
   .social-media-container {
     bottom: 50px;
-    left: 42%;
-    gap: 80px;
+    left: 5%;
+    gap: 50px;
   }
 }
 
 @media (min-width: 1024px) {
   h1 {
-    top: 13%;
+    top: 20%;
     left: 10%;
     font-size: 6rem;
   }
 
   .p-home {
     top: 41%;
-    left: 20%;
+    left: 15%;
     font-size: 3rem;
   }
 
   .social-media-container {
     bottom: 50px;
-    left: 42%;
-    gap: 120px;
+    left: 5%;
+    gap: 50px;
   }
 
   .social-icons {
